@@ -4937,6 +4937,152 @@
     C9   C10    N3   C11
    C10    C8    C7    S1
 
+[ CYF ] ; Rex Tylerson
+; cysteine amino acid conjugated to fluorescein 5-maleimide
+; atom1 atom2       HFvacuumRESP(NconfVac=1)  nr
+ [ atoms ]
+    CA    CT          0.040794     1
+    HA    H1           0.14508     2
+     C    C            0.83677     3
+     O    O          -0.572013     4
+    C6    c3g        -0.109684     5
+   H10    h1g         0.128091     6
+   H11    h1g         0.128091     7
+    S1    ssg        -0.167103     8
+    C7    ccg         0.006487     9
+    C8    cdg        -0.370272    10
+   H12    hag         0.195385    11
+    C9    cg          0.765614    12
+    O3    og         -0.530577    13
+    N3    ng          -0.44033    14
+   C10    cg          0.739423    15
+    O4    og         -0.480412    16
+     N    N          -0.796436    17
+     H    H           0.349503    18
+   C11    CA         -0.478800    19
+   C12    CA          0.175500    20
+   C13    CA          0.007600    21
+   C14    CA         -0.170200    22
+   C15    CA         -0.398800    23
+   H13    HA          0.129800    24
+   H14    HA          0.173100    25
+   C16    CA          0.289800    26
+   C17    CA          0.007600    27
+   C18    CA          0.175500    28
+    O5    OA         -0.204400    29
+   C19    CA         -0.478800    30
+   C20    CA          0.657300    31
+   C21    CA         -0.398800    32
+   C22    CA         -0.170200    33
+   H15    HA          0.173100    34
+   H16    HA          0.129800    35
+    O6    O          -0.724900    36
+   C23    CA         -0.139500    37
+   C24    CA         -0.244600    38
+   C25    CA         -0.073500    39
+   C26    CA         -0.100100    40
+   C27    CA         -0.095300    41
+   C28    CA          0.072100    42
+   C29    CA          0.687600    43
+    O7    O          -0.729000    44
+    O8    O          -0.729000    45
+   H17    HA          0.115300    46
+   H18    HA          0.081900    47
+   H19    HA          0.112300    48
+   C30    CA          0.657300    49
+    O9    O          -0.724900    50
+   H20    HA          0.138800    51
+   H21    HA          0.138800    52
+ 
+ [ bonds ]
+    CA    HA
+    CA     C
+    CA    C6
+    CA     N
+     C     O
+    C6   H10
+    C6   H11
+    C6    S1
+    S1    C7
+    C7    C8
+    C7   C10
+    C8   H12
+    C8    C9
+    C9    O3
+    C9    N3
+    N3   C10
+    N3   C26
+   C10    O4
+    N3   C26
+   C26   C27
+   C26   C25
+   C27   H17 
+   C27   C28
+   C28   C29
+   C28   C23
+   C29    O8
+   C29    O7
+   C23   C24
+   C23   C16
+   C24   H19
+   C24   C25
+   C25   H18
+   C16   C17
+   C16   C13
+   C17   C22
+   C17   C18
+   C22   H15
+   C22   C21
+   C21   H16
+   C21   C20
+   C20    O6
+   C20   C19
+   C19   H20
+   C19   C18
+   C18    O5
+    O5   C12 
+   C12   C11 
+   C12   C13 
+   C11   H21
+   C11   C30
+   C30    O9 
+   C30   C15
+   C15   H13
+   C15   C14
+   C14   H14
+   C14   C13
+     N     H
+    -C     N
+
+ [ impropers ]
+    -C    CA     N     H
+    CA    +N     C     O
+    C7    N3   C10    O4
+    C8    N3    C9    O3
+    C9    C7    C8   H12
+    C9   C10    N3   C26
+   C10    C8    C7    S1
+   C25   C27   C26    N3
+   C26   C28   C27   H17
+   C27   C23   C28   C29
+   C28   C24   C23   C16
+   C28    O7   C29    O8
+   C25   C23   C24   H19
+   C24   C26   C25   H18
+   C13   C17   C16   C23
+   C16   C22   C17   C18
+   C17   C21   C22   H15
+   C22   C20   C21   H16
+   C19   C21   C20    O6
+   C18   C20   C19   H20
+    O5   C19   C18   C17
+   C11    O5   C12   C13
+   C30   C12   C11   H21
+   C15   C11   C30    O9
+   C30   C14   C15   H13 
+   C15   C13   C14   H14 
+   C14   C16   C13   C12
+
 [ C2R ] ; AMBER-DYES
 ; cysteine amino acid
 ; atom1 atom2       HFvacuumRESP(NconfVac=1)  nr
