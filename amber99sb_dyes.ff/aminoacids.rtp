@@ -5062,26 +5062,28 @@
     C9    C7    C8   H12
     C9   C10    N3   C26
    C10    C8    C7    S1
+   C12   C30   C11   H21
+   C11   C13   C12   O5
+   C12   C14   C13   C16
+   C13   C15   C14   H14
+   C13   C23   C16   C17
+   C14   C30   C15   H13
+   C16   C18   C17   C22
+   C19   C17   C18   O5
+   C20   C18   C19   H20
+   C19   C21   C20   O6
+   C20   C22   C21   H16
+   C21   C17   C22   H15
+   C24   C28   C23   C16
+   C23   C25   C24   H19
+   C24   C26   C25   H18
    C25   C27   C26    N3
    C26   C28   C27   H17
    C29   C23   C28   C27
-   C28   C24   C23   C16
-   C28    O7   C29    O8
-   C25   C23   C24   H19
-   C24   C26   C25   H18
-   C13   C17   C16   C23
-   C16   C22   C17   C18
-   C17   C21   C22   H15
-   C22   C20   C21   H16
-   C19   C21   C20    O6
-   C18   C20   C19   H20
-    O5   C19   C18   C17
-   C11    O5   C12   C13
-   C30   C12   C11   H21
-   C15   C11   C30    O9
-   C30   C14   C15   H13 
-   C15   C13   C14   H14 
-   C12   C14   C13   C16
+   C28   O7    C29   O8
+   C11   C15   C30   O9
+
+
 
 [ C2R ] ; AMBER-DYES
 ; cysteine amino acid
