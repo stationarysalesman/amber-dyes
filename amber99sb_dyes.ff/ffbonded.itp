@@ -35,6 +35,7 @@
  cag h4g  1  0.1088      286940.0  ; AMBER-DYES
  cag hag  1  0.1086      288718.0  ; AMBER-DYES
  cag nag  1  0.1350      393550.0  ; AMBER-DYES
+ cag  ng  1  0.1460      276650.0  ; Rex Tylerson
  cag ncg  1  0.1336      412460.0  ; AMBER-DYES
  cag nhg  1  0.1364      375720.0  ; AMBER-DYES
  cag  og  1  0.1222      526350.0  ; AMBER-DYES
@@ -270,6 +271,8 @@
  c3g nag cag        1       124.360       528.440   ; AMBER-DYES
  c3g  ng c3g        1       115.560       528.270   ; AMBER-DYES
  c3g  ng  cg        1       121.350       534.880   ; AMBER-DYES
+ cag  ng  cg        1       121.350       534.880   ; Rex Tylerson
+  ng cag cag        1       121.350       534.880   ; Rex Tylerson
  c3g  ng hng        1       116.780       385.260   ; AMBER-DYES
  c3g nhg c3g        1       114.440       531.620   ; AMBER-DYES
  c3g nhg cag        1      118.1962         539.0   ; AMBER-DYES
@@ -895,8 +898,11 @@ X   X   CA  H5       4      180.00     4.60240     2	; bsd.on C6H6 nmodes
  c3g  ng c3g h1g  9     0.0       0.00000   0   ; AMBER-DYES
  c3g  ng  cg cag  9   180.0      10.46000   2   ; AMBER-DYES
  c3g  ng  cg ccg  9   180.0      10.46000   2   ; AMBER-DYES
+ cag  ng  cg ccg  9   180.0      10.46000   2   ; Rex Tylerson
  c3g  ng  cg cdg  9   180.0      10.46000   2   ; AMBER-DYES
+ cag  ng  cg cdg  9   180.0      10.46000   2   ; Rex Tylerson
  c3g  ng  cg  og  9   180.0      10.46000   2   ; AMBER-DYES
+ cag  ng  cg  og  9   180.0      10.46000   2   ; Rex Tylerson
  c3g nhg c2g ceg  9   180.0      27.82360   2   ; AMBER-DYES
  c3g nhg c2g cfg  9   180.0      27.82360   2   ; AMBER-DYES
  c3g nhg c3g h1g  9     0.0       0.00000   0   ; AMBER-DYES
