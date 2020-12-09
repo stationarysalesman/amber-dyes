@@ -4980,7 +4980,7 @@
    C23    cwg        -0.139500    37
    C24    cag        -0.244600    38
    C25    cag        -0.073500    39
-   C26    cag        -0.100100    40
+   C26    cag        -0.030910    40 ; adjusted to make total charge 0
    C27    cag        -0.095300    41
    C28    cag         0.072100    42
    C29    cg          0.687600    43
